@@ -1,4 +1,5 @@
 @prefix doi: <https://doi.org/> .
+@prefix cito: <http://purl.org/net/cito/> .
 
 doi:10.1021/np200866z dcterms:identifier "10.1021/np200866z" ;
   foo:discusses [
