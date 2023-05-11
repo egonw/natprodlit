@@ -1,17 +1,17 @@
+@prefix doi: <https://doi.org/> .
 
-
-doi:1 dcterms:identifier "10.something/doi1" ;
+doi:10.1021/np200866z dcterms:identifier "10.1021/np200866z" ;
   foo:discusses [
-    dcterms :np1 ,
-    rdfs:label "XXXX" ,
-    foo:smiles "XXXXXX1"
+    owl: :np1 ,
+    rdfs:label "asperjinone" ,
+    foo:smiles "O=C1OC(=O)C(=C1C=2C=CC(O)=CC2)CC3=CC=C(O)C(=C3)CC4OC4(C)C"
   ] .
 
-doi:2 dcterms:identifier "10.something/doi2" ;
+doi:10.1021/np300218g dcterms:identifier "10.1021/np300218g" ;
   foo:discusses [
     dcterms :np1 ,
-    rdfs:label "XXXX" ,
-    foo:smiles "XXXXXX2"
+    rdfs:label "asperjinone" ,
+    foo:smiles "CC1(C(CC2=CC(=CC=C2O1)CC3=C(C(=O)OC3=O)C4=CC=C(C=C4)O)O)C"
   ] .
 
-doi:2 cito:corrects doi:1 .
+doi:10.1021/np300218g cito:corrects doi:10.1021/np200866z .
