@@ -1,0 +1,17 @@
+
+
+doi:1 dcterms:identifier "10.something/doi1" ;
+  foo:discusses [
+    dcterms :np1 ,
+    rdfs:label "XXXX" ,
+    foo:smiles "XXXXXX1"
+  ] .
+
+doi:2 dcterms:identifier "10.something/doi2" ;
+  foo:discusses [
+    dcterms :np1 ,
+    rdfs:label "XXXX" ,
+    foo:smiles "XXXXXX2"
+  ] .
+
+doi:2 cito:corrects doi:1 .
